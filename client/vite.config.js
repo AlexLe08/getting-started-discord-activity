@@ -15,5 +15,6 @@ export default defineConfig({
     hmr: {
       clientPort: 443,
     },
+    allowedHosts: ['psp-organizations-mutual-mario.trycloudflare.com']
   },
 });
